@@ -328,14 +328,14 @@ input.textbox:focus, textarea:focus{	border:#999 1px solid;}
 }
 
 #topo-esquerda {
-	background: url(http://www.atitudeconhecimento.com.br/site/wp-content/themes/MistyLook/img/topo-ambiente-esquerda.jpg);
+	background: url(http://atitudeconhecimento.brasa.art.br/wp-content/themes/atitude-theme/img/topo-ambiente-esquerda.jpg);
 	width: 108px;
 	height: 80px;
 	float: left;
 }
 
 #topo-esquerda:hover {
-	background: url(http://www.atitudeconhecimento.com.br/site/wp-content/themes/MistyLook/img/topo-ambiente-esquerda-hover.jpg);
+	background: url(http://atitudeconhecimento.brasa.art.br/wp-content/themes/atitude-theme/img/topo-ambiente-esquerda-hover.jpg);
 	width: 108px;
 	height: 80px;
 	float: left;
