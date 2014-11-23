@@ -91,14 +91,14 @@ function mistylook_add_theme_page() {
 	}
 
 
-    add_theme_page("MistyLook Options", "MistyLook Options", 'edit_themes', basename(__FILE__), 'mistylook_theme_page');
+    add_theme_page("Options", "Options", 'edit_themes', basename(__FILE__), 'mistylook_theme_page');
 
 }
 
 function mistylook_theme_page() {
 
 	// --------------------------
-	// MistyLook theme page content
+	//Theme page content
 	// --------------------------
 
 	if ( $_REQUEST['saved'] ) echo '<div id="message" class="updated fade"><p><strong>MistyLook Theme: Settings saved.</strong></p></div>';
@@ -113,11 +113,10 @@ function mistylook_theme_page() {
 </style>
 <div class="wrap">
 
-<h2>MistyLook 3.5</h2>
+<h2>Atitude & Conhecimento 0.1</h2>
 
-<div class="block"><h4>Theme Page: <a href="http://wpthemes.info/misty-look/">MistyLook</a> </h4> 
-					<h4>Designed & Coded by:<a href="http://wpthemes.info/" target="_blank">Sadish Bala</a></h4>
-					
+<h4>Designed by: <a href="http://brasa.art.br/" target="_blank">Brasa.art.br</a></h4>
+<h4>Coded by: <a href="http://wpthemes.info/" target="_blank">Sadish Bala</a></h4>				
 </div>
 
 
