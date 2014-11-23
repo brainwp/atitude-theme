@@ -1,4 +1,5 @@
-<?php  /* Template Name: Tabela Dev */  get_header(); ?>
+<?php  /* Template Name: Tabela */  
+get_header(); ?>
 <div id="content">
 <div id="tabeladev-geral">
 
