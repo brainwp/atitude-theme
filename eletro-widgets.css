@@ -1,0 +1,146 @@
+/* Faça uma copia desse arquivo para a pasta do seu tema e modifique a vontade */
+/* Make a copy of this file to your theme's folder and play around */
+
+.eletro_widgets_separator {
+    clear: both;
+}
+
+#eletro_widgets_container {
+    overflow: hidden;
+}
+
+span.itemDrag {
+	background-color: #ff3300;
+	color: #fff;
+	padding: 3px;
+	position: relative;
+	margin-top: 0px;
+	display: block;
+}
+
+div.eletro_widgets_col {
+    min-height: 50px;
+    float: right;
+}
+
+
+/* Esses são os estilos das colunas e dos itens de cada set de Eletro Widgets. Crie mais conforme necessário */
+/* These are the styles applied to the columns and items of each eletro-widgets set. Create new one as needed */
+
+
+/* Estilos para o container 0 (2 colunas)*/
+/* Styles for container 0 (2 columns)*/
+
+#eletro_widgets_container_0 div.eletro_widgets_col {
+width: 44%;
+background:url("images/blacktrans.png") repeat scroll 0 0 transparent;
+margin-bottom:15px;
+margin-right:18px;
+padding:10px;
+float: right;
+} 
+
+
+#eletro_widgets_container_0 div.itemDrag {
+}
+/* Fim dos estilos para o container 0 */
+/* End of styles for container 0 */
+
+
+/* Estilos para o container 1 (3 colunas)*/
+/* Styles for container 1 (3 columns)*/
+
+
+#eletro_widgets_container_1 div.eletro_widgets_col {
+	width: 100%;
+}
+
+#eletro_widgets_container_1 div.eletro_widgets_content h2 {
+	width: 634px;
+}
+
+#eletro_widgets_container_1 div.itemDrag {
+	width: 90%;
+}
+/* Fim dos estilos para o container 1 */
+/* End of styles for container 1 */
+
+/*Inicio da customização do eletro para o tema Motion*/
+
+div.itemDrag {
+	margin-bottom: 10px;
+}
+.eletro_widgets_content h2 {
+background:url("images/blacktrans.png") repeat scroll 0 0 transparent;
+font-size:1.2em;
+font-weight:normal;
+line-height:1.3em;
+margin-bottom:10px;
+padding:5px 10px;
+}
+
+#eletro_widgets_control {
+	display: inline-block;
+	background:url("images/blacktrans.png") repeat scroll 0 0 transparent;
+}
+
+.eletro_widgets_control {
+	background:url("images/blacktrans.png") repeat scroll 0 0 transparent;
+	margin: -15px 9px 0;
+	padding: 5px;
+
+}
+.eletro_widgets_control p {
+	margin-top: 0;
+}
+
+.eletro_widgets_content ul {
+	margin: 0;
+	padding: 0;
+}
+
+.eletro_widgets_content ul li {
+	background:url("images/blacktrans.png") repeat scroll 0 0 transparent;
+	margin-bottom:5px;
+	padding:5px;
+	font-size:0.8em;
+	line-height:1.5em;
+}
+
+.eletro_widgets_content ul li a {
+	display: inline;
+	padding: 5px 0 0 0;
+}
+
+#eletro_widgets_control .eletro_widgets_buttons a {
+	background:url("images/blacktrans.png") repeat scroll 0 0 transparent;
+	margin-bottom:3px;
+	padding:5px;
+	font-size:0.8em;
+	line-height:1.5em;
+}
+
+/**********  FLICKR   ***************/
+
+.eletro_widgets_content table {
+	width: 100%;
+	text-align: center;
+}
+
+.eletro_widgets_content #flickr_badge_uber_wrapper {
+	background:#F2F2F2;
+	padding:3px 0 ;
+}
+
+.eletro_widgets_content #flickr_badge_wrapper img {
+	border: 4px solid white;
+	outline: 1px solid #CCCCCC;
+}
+
+/**********  VODPOD   ***************/
+#vodpod-videos .eletro_widgets_content span {
+	display: none;
+}
+#vodpod-videos .eletro_widgets_content span.itemDrag {
+	display: block;
+}
